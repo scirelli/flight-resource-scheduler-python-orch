@@ -1,0 +1,4 @@
+Flask==0.12.2
+Markdown==2.6.8
+jinja2==2.6
+google-api-python-client
