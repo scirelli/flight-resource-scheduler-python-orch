@@ -32,7 +32,7 @@ def example(uid, slug):
 
 @app.route("/")
 def index():
-	return render_template('index.html')
+	return 'hello world'
 
 @app.route('/<path:path>', methods=['GET', 'POST'])
 def catch_all(path):
